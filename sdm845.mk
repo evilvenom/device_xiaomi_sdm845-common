@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.2-service.clearkey
 
+# Hardware
+PRODUCT_BOARD_PLATFORM := sdm845
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
