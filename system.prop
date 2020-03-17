@@ -41,6 +41,9 @@ persist.vendor.dpm.loglevel=0
 persist.vendor.dpm.nsrm.bkg.evt=3955
 
 # Graphics
+debug.egl.hw=1
+debug.sf.hw=1
+debug.gralloc.enable_fb_ubwc=1
 debug.sf.disable_backpressure=1
 debug.sf.early_app_phase_offset_ns=1500000
 debug.sf.early_gl_app_phase_offset_ns=15000000
@@ -54,6 +57,7 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=2
 ro.surface_flinger.max_virtual_display_dimension=4096
 ro.surface_flinger.use_color_management=true
+ro.opengles.version=196610
 sdm.debug.disable_inline_rotator=1
 sdm.debug.disable_inline_rotator_secure=1
 
