@@ -74,6 +74,8 @@ debug.sf.gpu_comp_tiling=1
 debug.sf.disable_hwc=0
 debug.enable.sglscale=1
 debug.performance.tuning=1
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
