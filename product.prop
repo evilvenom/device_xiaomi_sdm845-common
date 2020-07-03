@@ -31,4 +31,7 @@ persist.vendor.bt.enable.splita2dp=true
 persist.bluetooth.a2dp_offload.disabled=false
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
 persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
+persist.vendor.bt.a2dp.aac_whitelist=false
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.btstack.enable.twsplussho=true
 ro.bluetooth.a2dp_offload.supported=true
