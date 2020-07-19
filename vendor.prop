@@ -99,6 +99,13 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+persist.dbg.ims_volte_enable=1
+persist.radio.VT_ENABLE=1
+persist.radio.volte.dan_support=true
+persist.data.iwlan=1
+persist.data.iwlan.ipsec.ap=1
+persist.sys.cust.lte_config=true
+persist.vendor.radio.data_con_rprt=1
 
 # Listen
 ro.audio.soundtrigger=sva
