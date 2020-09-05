@@ -61,6 +61,3 @@
 # Sockets
 /dev/socket/audio_hw_socket                   u:object_r:audio_socket:s0
 /dev/socket/gps                               u:object_r:gps_socket:s0
-
-# Force Fast Charge
-/sys/kernel/fast_charge/force_fast_charge       u:object_r:sysfs_fastcharge:s0

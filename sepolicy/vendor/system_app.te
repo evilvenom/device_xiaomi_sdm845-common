@@ -1,7 +1,3 @@
-# PocoParts
-allow system_app sysfs_fcharge:file { open read getattr write };
-allow system_app sysfs_fastcharge:file { open read getattr write };
-
 # Battery Health
 allow system_app sysfs_battery_supply:dir { search };
 allow system_app sysfs_battery_supply:file { read };
