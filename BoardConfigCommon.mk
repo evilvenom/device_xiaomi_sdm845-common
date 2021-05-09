@@ -162,3 +162,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
+
+# DT2W Node
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/gesture_enable"
