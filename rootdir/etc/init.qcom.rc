@@ -260,6 +260,10 @@ on boot
     mkdir /data/vendor/sensors
     chown system system /data/vendor/sensors
 
+    # Set permission for double tap to wake support
+    chmod 0660 /proc/touchpanel/gesture_enable
+    chown system system /proc/touchpanel/gesture_enable    
+
 # MSM specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/diag 2771 root log
